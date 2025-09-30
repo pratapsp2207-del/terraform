@@ -1,0 +1,9 @@
+region               = "ap-south-1"
+vpc_cidr_block       = "10.10.0.0/16"
+env_prefix           = "dev"
+instance_tenancy     = "default"
+enable_dns_hostnames = "true"
+enable_dns_support   = "true"
+availability_zone    = ["ap-south-1a", "ap-south-1b"]
+public_subnet_cidrs  = ["10.10.1.0/24", "10.10.2.0/24"]
+private_subnet_cidrs = ["10.10.5.0/24", "10.10.6.0/24"]
